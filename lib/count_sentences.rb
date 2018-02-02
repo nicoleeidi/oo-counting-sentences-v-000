@@ -37,4 +37,5 @@ class String
     return array.length
 
   end
+  
 end
