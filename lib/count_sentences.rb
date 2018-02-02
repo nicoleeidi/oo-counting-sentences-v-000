@@ -31,11 +31,11 @@ class String
     array= self.split(/[.!?]/)
     array.map do |element|
       if element== nil || ""
-        array.delete!(element)
+        array.delete(element)
       end
     end
     return array.length
 
   end
-  
+
 end
