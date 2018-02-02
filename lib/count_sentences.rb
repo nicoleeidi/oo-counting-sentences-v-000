@@ -22,7 +22,7 @@ class String
         array.delete!(element)
       end
     end
-    return array.length 
+    return array.length
 
   end
 end
