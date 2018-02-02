@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence
-    if self.end_with(".") == true
+    if self.end_with?(".") == true
       return true
     else
       return false
@@ -12,7 +12,7 @@ class String
   end
 
   def question?
-    if self.end_with("?") == true
+    if self.end_with?("?") == true
       return true
     else
       return false
@@ -20,7 +20,7 @@ class String
   end
 
   def exclamation?
-    if self.end_with("!") == true
+    if self.end_with?("!") == true
       return true
     else
       return alse
