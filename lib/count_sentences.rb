@@ -17,11 +17,11 @@ class String
 
   def count_sentences
     array= self.split(/[.!?]/)
-    array.each do |element|
+    array.map do |element|
       if element== nil || ""
         array.delete!(element)
       end
-    end 
+    end
 
   end
 end
